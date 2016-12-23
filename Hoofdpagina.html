@@ -42,15 +42,33 @@ Welkom op TimafluOnline.
 Als medewerker van Timaflu hebt u toegang op deze site. Sommige websitefuncties zijn opengesteld voor alleen uw afdeling. 
 Op de navigatiebalk kunt u uitloggen als u op de uitknop klikt. U kunt naar uw profiel toegaan en daar wijzigingen maken. En via het "huisicoon" kunt u teruggaan naar deze pagina.
 
-
-<div>
-<img src="groepsfoto.jpg" class="img-rounded" alt="Timaflugroepsfoto" title="Timaflugroepsfoto" width= "1200px">
+<!-- Delete dit in je deel --> 
+<div class="w3-content w3-section" style="max-width:1000px, margin-left:auto, margin-right:auto";>
+  <img class="mySlides" src="groepsfoto.jpg" style="width:60%" title="Timaflu groepsfoto">
+  <img class="mySlides" src="medicijnen.jpg" style="width:60%" title="50 Artikelnummers die in Finland verboden zijn, u zult nummer 19 niet geloven!">
+  <img class="mySlides" src="boss.jpg" style="width:60%" title="Dhr Tim A. Flu. heeft een handelsmissie in Zimbabwe">
+ 
+</div>
 </div>
 
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 7500); 
+}
+</script>
+<!-- tot en met hier ;-)--> 
+
 </div>
-<!-- Well tekst, je kan dit ook vervangen als je wil, het ziet er zo smooth uit-->
-
-
-
 	
 </html>
