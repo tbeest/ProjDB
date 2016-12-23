@@ -2,7 +2,7 @@ body{
 	background-color: #eee;
 	margin: 0;
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 16px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -62,4 +62,12 @@ nav li:hover >a{
 }
 nav li:hover ul{
 	transform:translateY(100%);
+}
+
+a{
+	text-decoration: none;
+}
+
+image{
+	display: inline-block;
 }
