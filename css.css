@@ -87,12 +87,12 @@ header{
 	max-width: 800px;
 }
 
-#show{
+.show{
 	display:none;
 	max-width: 600px;
 }
 
-input:checked~#show{
+input:checked~.show{
 	display:block;
 }
 
@@ -112,7 +112,7 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 
-.gegeevens{
+.size1100{
 	max-width: 1100px
 }
 
@@ -121,17 +121,6 @@ input[type=text] {
 }
 
 
-#well2{
-	max-width:1100px;
-}
-
-#well1{
-	max-width: 1100px;
-}
-
-#well3{
-	max-width: 1100px;
-}
 
 .dropdown, .form-group{
 	display:inline-block;
