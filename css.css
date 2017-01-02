@@ -125,3 +125,8 @@ input[type=text] {
 .dropdown, .form-group{
 	display:inline-block;
 }
+
+.input1{
+	outline-width: 100px;
+	font-size: 10px;
+}
